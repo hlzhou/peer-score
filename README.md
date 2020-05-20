@@ -1,2 +1,2 @@
-# vpers-score
-Viral Pneumonia ECMO Risk Score 
+# vpeers-score
+Viral Pneumonia ECMO-Eligible Risk Score 
