@@ -2,7 +2,7 @@
 
 The code in this folder is used to create csv files with fixed-length feature vectors for patient stays in [eICU](https://eicu-crd.mit.edu/) and [MIMIC-III](https://mimic.physionet.org/).
 
-To extract eICU csvs:
+**To extract eICU csvs:**
 
 1. Set up eICU database according to [eICU setup instructions](https://github.com/MIT-LCP/eicu-code/tree/master/build-db/postgres)
 2. cd into `src/data_processing/mimic`
@@ -10,7 +10,7 @@ To extract eICU csvs:
 4. Run the python script: `python tables.py`
 
 
-To extract MIMIC csvs:
+**To extract MIMIC csvs:**
 
 1. Create folders `../../data/mimic/mimic3` and `../../data/mimic/anypna` and `../../data/mimic/mimic_cleaned`
 2. Download raw MIMIC-III csvs from Physionet website and put them into `../../data/mimic/mimic3`. Also download smoking.tsv and codx.tsv from 
