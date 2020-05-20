@@ -23,6 +23,6 @@ The code in this folder is used to create csv files with fixed-length feature ve
 
 
 **Finally,**
-Run `python shuffle_split.py`.
+run `python shuffle_split.py`.
 
 Once you have completed the above steps, you should be able to run the notebook `model_results.ipynb`.
