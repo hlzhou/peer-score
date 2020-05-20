@@ -19,6 +19,10 @@ The code in this folder is used to create csv files with fixed-length feature ve
 5. Run `mimic3buildtimeline.R`
 6. Run `mimic_make_flfv.R`
 7. Run `mimic_cleaner.R`
-8. Run `mimic_cleanup.py`
+8. Run `python mimic_cleanup.py`
+
+
+**Finally,**
+Run `python shuffle_split.py`.
 
 Once you have completed the above steps, you should be able to run the notebook `model_results.ipynb`.
