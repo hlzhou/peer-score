@@ -13,7 +13,7 @@ The code in this folder is used to create csv files with fixed-length feature ve
 **To extract MIMIC csvs:**
 
 1. Create folders `../../data/mimic/mimic3` and `../../data/mimic/anypna` and `../../data/mimic/mimic_cleaned`
-2. Download raw MIMIC-III csvs from Physionet website and put them into `../../data/mimic/mimic3`. Also download smoking.tsv and codx.tsv from 
+2. Download raw MIMIC-III csvs from Physionet website and put them into `../../data/mimic/mimic3`. Also download `smoking.tsv` and `codx.tsv`.
 3. For all of the following scripts, check the paths the in code so that it is compatible with your setup.
 4. cd into `src/data_processing/mimic`
 5. Run `mimic3buildtimeline.R`
