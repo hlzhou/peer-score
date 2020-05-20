@@ -9,9 +9,9 @@ a life-sustaining oxygenation and ventilation therapy
 that may be used for patients with severe ARDS
 when mechanical ventilation is insufficient to sustain life. 
 While early planning and surgical cannulation for ECMO 
-can increase survival \citep{combes2018extracorporeal},
+can increase survival,
 clinicians report the lack of a risk score 
-hinders these efforts \citep{liang2020handbook,acchub}.
+hinders these efforts.
 In this work, we leverage machine learning techniques
 to develop a score to highlight critically ill patients 
 with viral or unspecified pneumonia 
@@ -23,7 +23,7 @@ and predicts mortality at least as well as other existing risk scores. Stratifyi
 for direct calculation of patient risk, and can be used to highlight at-risk patients among critical care patients eligible for ECMO.
 
 ## Data extraction
-- Follow the instructions in the README in `src/data_processing` to extract csv files for the eICU and MIMIC cohorts (stored in `data/final_splits`). These contain viral or unspecified pneumonia patients who are filtered for ECMO-eligibility.
+Follow the instructions in the [README](https://github.com/hlzhou/vpeers-score/tree/master/src/data_processing) in `src/data_processing` to extract csv files for the eICU and MIMIC cohorts (stored in `data/final_splits`). These contain viral or unspecified pneumonia patients who are filtered for ECMO-eligibility.
 
 ## Model and Results
 The `src/` folder contains code for training the model and analyzing results. For the following explanation: `cd src/`
