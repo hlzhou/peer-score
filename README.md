@@ -9,5 +9,5 @@ Viral Pneumonia ECMO-Eligible Risk Score
         bash bash.sh
     
 - `show_grid_plots.ipynb`: creates figures for showing the grid search results.
-- `model_results.ipynb`: runs our model and produces the results in our paper. It also includes code that calls the `comparison_risk_scores.R` to compare our risk score with the baseline risk scores listed in our paper.
+- `model_results.ipynb`: runs our model with best hyperparameter level selected from grid search and produces the results in our paper. It also includes code that calls the `comparison_risk_scores.R` to compare our risk score with the baseline risk scores listed in our paper.
 
