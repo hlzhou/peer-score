@@ -4,3 +4,4 @@ Viral Pneumonia ECMO Risk Score
     
         bash bash.sh
     
+- show_grid_plots.ipynb creates figures for showing the grid search results.
