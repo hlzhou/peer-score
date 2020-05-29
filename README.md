@@ -1,5 +1,5 @@
-# vpeers-score
-**V**iral **P**neumonia **E**CMO-**E**ligible **R**isk **S**core 
+# peers-score
+Viral or Unspecified **P**neumonia **E**CMO-**E**ligible **R**isk **S**core 
 
 ## Abstract
 Respiratory complications due to coronavirus disease COVID-19
@@ -23,7 +23,7 @@ and predicts mortality at least as well as other existing risk scores. Stratifyi
 for direct calculation of patient risk, and can be used to highlight at-risk patients among critical care patients eligible for ECMO.
 
 ## Data extraction
-Follow the instructions in the [README](https://github.com/hlzhou/vpeers-score/tree/master/src/data_processing) in `src/data_processing` to extract csv files for the eICU and MIMIC cohorts (stored in `data/final_splits`). These contain viral or unspecified pneumonia patients who are filtered for ECMO-eligibility.
+Follow the instructions in the [README](https://github.com/hlzhou/peers-score/tree/master/src/data_processing) in `src/data_processing` to extract csv files for the eICU and MIMIC cohorts (stored in `data/final_splits`). These contain viral or unspecified pneumonia patients who are filtered for ECMO-eligibility.
 
 ## Model and Results
 The `src/` folder contains code for training the model and analyzing results. For the following explanation: `cd src/`
