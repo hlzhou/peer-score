@@ -39,4 +39,6 @@ The `src/` folder contains code for training the model and analyzing results. Fo
 
 **Additional information:** Table 1 of the paper is created by `eicu_eda.py`
 
+## Please cite our [paper](https://arxiv.org/abs/2012.04825) if you use our code.
+
 
