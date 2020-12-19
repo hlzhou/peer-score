@@ -1,5 +1,5 @@
 # PEER Score
-Viral or Unspecified **P**neumonia **E**CMO-**E**ligible **R**isk Score 
+Viral or Unspecified **P**neumonia **E**CMO-**E**ligible **R**isk Score from our [paper](https://arxiv.org/abs/2006.01898).
 
 ## Abstract
 Respiratory complications due to coronavirus disease COVID-19
